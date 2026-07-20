@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verde — David Enrique Rocha Aguilera</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="mark">DR</span> ROCHA AGUILERA</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html#work">Selected Work</a>
+      <a href="index.html#profile">Profile</a>
+      <a href="index.html#contact" class="contact-btn">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="sheet-strip"><span>A—1.0 — VERDE</span></div>
+
+<main class="project-main">
+  <div class="wrap">
+
+    <div class="project-hero">
+      <div class="eyebrow">01 / 05 — Residential</div>
+      <h1>Verde</h1>
+      <div class="loc">León, Guanajuato <span class="status-pill finish"><span class="dot"></span>Finish</span></div>
+
+      <div class="hero-frame reg-mark">
+        <img src="assets/verde-hero.jpg" alt="Verde hero render">
+        <div class="tag-corner">A—1.0</div>
+      </div>
+      <div class="databar">
+        <div class="d"><span class="k">Site</span><span class="v">León, Guanajuato</span></div>
+        <div class="d"><span class="k">Status</span><span class="v">Finish</span></div>
+        <div class="d"><span class="k">Role</span><span class="v">BIM Modeler MEP</span></div>
+        <div class="d"><span class="k">Involvement</span><span class="v">3D modeling, rendering, clash detection</span></div>
+        <div class="d"><span class="k">Software</span><span class="v">Revit · 3ds Max · V-Ray</span></div>
+      </div>
+    </div>
+
+    <div class="project-desc">
+      <div class="lbl">Description</div>
+      <div class="body">
+        <p>Verde is a residential building designed with a strong focus on sustainability and simplicity. Its clean architectural lines are complemented by abundant vegetation integrated into the balconies, creating a natural and harmonious atmosphere.</p>
+        <p>Large openings maximize natural light and ventilation, reducing energy consumption while enhancing the comfort of the living spaces. Verde offers a serene and visually calm experience, blending nature with urban living.</p>
+      </div>
+    </div>
+
+    <div class="plates">
+      <div class="plate">
+        <div class="plate-head"><h3>Axonometric &amp; Architectural Drawings</h3><span class="sheet-no">A—1.1</span></div>
+        <div class="plate-img"><img src="assets/verde-plate-axon-plans.jpg" alt="Verde exploded axonometric and ground floor / first level plans"></div>
+      </div><div class="plate">
+        <div class="plate-head"><h3>MEP Coordination — Electrical, Water, Sanitary &amp; Storm Drainage</h3><span class="sheet-no">M—1.0</span></div>
+        <div class="plate-img"><img src="assets/verde-mep.jpg" alt="Verde MEP modeling isometrics: electricity, water supply, sanitary and storm drainage"></div>
+      </div>
+    </div>
+
+    <div class="project-nav">
+      <a class="prev" href="bodega.html">
+        <span class="pn-lbl">← Previous</span>
+        <span class="pn-name">Bodega</span>
+      </a>
+      <a class="next" href="casa100.html">
+        <span class="pn-lbl">Next →</span>
+        <span class="pn-name">Casa 100</span>
+      </a>
+    </div>
+
+  </div>
+</main>
+
+<footer id="contact" style="margin-top:64px;">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="col">
+        <div class="eyebrow" style="margin-bottom:14px;">Get in touch</div>
+        <a href="mailto:rochapro99@gmail.com" style="font-size:1.1rem;color:var(--ink);font-family:'Fraunces',serif;">rochapro99@gmail.com</a>
+      </div>
+      <div class="col"><div class="eyebrow" style="margin-bottom:14px;">Phone</div>565 396 5796</div>
+      <div class="col"><div class="eyebrow" style="margin-bottom:14px;">Location</div>Guadalajara, Jalisco, México</div>
+    </div>
+    <div class="footer-fine">
+      <span>Arch. David Enrique Rocha Aguilera — Architecture BIM Portfolio</span>
+      <span>2025</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('navToggle').addEventListener('click', function(){
+  document.getElementById('navLinks').classList.toggle('open');
+});
+</script>
+</body>
+</html>
